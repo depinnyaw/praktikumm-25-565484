@@ -1,0 +1,23 @@
+[33m9ef7213[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/dark-mode[m[33m, [m[1;31morigin/feature/dark-mode[m[33m)[m fix: resolve conflict CSS background
+[33m83c638c[m fix: clean up conflict markers
+[33m3d24dd1[m feat: implements dark mode
+[33m492090d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m git push origin main git push origin mainMerge commit '33d2067' git push origin main# the commit.
+[33m33d2067[m fix: resolve merge conflict on background color
+[33maea5bd5[m feat: add dark background
+[33m3a02c99[m fix: resolve conflict between branches
+[33mb7c1890[m[33m ([m[1;31morigin/experiment/color-B[m[33m, [m[1;32mexperiment/color-B[m[33m)[m feat: change background to lightgreen
+[33m715716c[m[33m ([m[1;31morigin/experiment/color-A[m[33m, [m[1;32mexperiment/color-A[m[33m)[m feat: change backgqound to lightblue
+[33mf53b1ad[m docs: add branch protection screenshot to README
+[33m1b1466b[m Merge pull request #3 from depinnyaw/hotfix/typo
+[33m817c79e[m feat: add footer (#2)
+[33m5f74004[m feat: add blog menu to navbar (#1)
+[33m2a24b3a[m[33m ([m[1;31morigin/hotfix/typo[m[33m, [m[1;32mhotfix/typo[m[33m)[m fix: correct typo
+[33mcfa5b36[m add screenshot to README
+[33m91b5b8f[m chore: add gitignore
+[33m4dcf6c3[m add button
+[33m4b19934[m feat: add button to card
+[33m110bea9[m fix: improve card text content
+[33m69ea2c1[m style: change header color
+[33mf714be1[m feat: add footer
+[33m4becf56[m feat: add initial HTML
+[33m4d87232[m Initial commit
