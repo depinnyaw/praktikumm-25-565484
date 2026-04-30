@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Web</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f4f4f4;
+}
+
+/* HEADER */
+header{
+  background:#6c63ff;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:center;
+  background:#333;
+}
+
+nav a{
+  color:white;
+  padding:14px 20px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  background:#575757;
+}
+
+/* CONTAINER */
+.container{
+  display:flex;
+  gap:20px;
+  padding:20px;
+}
+
+/* CARD */
+.card{
+  background:white;
+  padding:20px;
+  flex:1;
+  border-radius:10px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+  .container{
+    flex-direction:column;
+  }
+
+  nav{
+    flex-direction:column;
+  }
+
+  nav a{
+    text-align:center;
+    border-top:1px solid #444;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>My Responsive Website</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Card 1</h2>
+    <p>Ini contoh konten pertama.</p>
+  </div>
+  
+  <div class="card">
+    <h2>Card 2</h2>
+    <p>Ini contoh konten kedua.</p>
+  </div>
+  
+  <div class="card">
+    <h2>Card 3</h2>
+    <p>Ini contoh konten ketiga.</p>
+  </div>
+</div>
+
+</body>
+</html>
